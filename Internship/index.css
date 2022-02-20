@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    width: 100%;
+}
+
+.upper {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    color: white;
+    background: rgba(18, 18, 241, 0.7);
+}
+
+.navmain,
+.class1 {
+    width: 100%;
+}
+
+.main {
+    background-image: url('./desert-7008952_1280.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.class2,
+.class3 {
+    height: 100px;
+}
+
+.class2,
+.class3 {
+    border: 5px solid rgb(253, 251, 251);
+    background-color: rgba(212, 170, 81, 0.164);
+    background-image: linear-gradient(to left, rgba(34, 56, 180, 0.5), rgba(243, 234, 245, 0.9));
+}
+
+.navb {
+    height: 50px;
+    width: 97%;
+    margin-top: 8px;
+    background: rgba(47, 47, 128, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navmain {
+    background: rgba(243, 243, 245, 0.98);
+}
+
+.innernav {
+    margin: 10px;
+    padding: 2px;
+}
+
+.innernav:hover {
+    background: rgba(81, 81, 124, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.class2 {
+    height: 400px;
+    width: 100%;
+}
+
+.class3 {
+    height: 80px;
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+    z-index: -1;
+    justify-self: flex-start;
+    height: 100%;
+}
+
+.class1 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+p {
+    padding: 5px;
+}
+
+.form {
+    background: rgba(243, 243, 245, 0.5);
+    height: 49%;
+    padding: 10px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.iform {
+    margin: 10px;
+    height: 50px;
+}
+
+.class2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.i {
+    margin: 5px solid black;
+    cursor: pointer;
+    width: 300px;
+    height: 90px;
+}
+
+.i:hover {
+    transform: scale(1.2);
+    transition: ease-out;
+}
+
+.table,
+th,
+td {
+    background: rgba(243, 243, 245, 0.5);
+    height: 49%;
+    padding: 20px;
+}
+
+.table {
+    width: 20%;
+    margin-top: 70px;
+}
+
+.empty {
+    width: 250px;
+    height: 150px;
+    background: rgba(232, 232, 238, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+p {
+    background: rgba(243, 243, 245, 0.9);
+    color: black;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.para {
+    width: 50%;
+    height: 140px;
+    padding: 30px;
+    margin-left: 20px;
+    background: none;
+}
+
+.im {
+    width: 40%;
+    height: 80%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
